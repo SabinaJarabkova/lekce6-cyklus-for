@@ -14,10 +14,10 @@ for ( let i = 0; i <= 10; i++) {
 
 console.log('WHILE CYKLUS');
 
-let a = -1;
-while (a <= 9) {
-  a = a + 1;
+let a = 0;
+while (a <= 10) {
   console.log(a);
+  a = a + 1;
 }
 
 
@@ -34,10 +34,10 @@ for ( let i = 0; i < 10; i++) {
 
 console.log('WHILE CYKLUS');
 
-let b = -1;
-while (b < 9) {
-  b = b + 1;
+let b = 0;
+while (b < 10) {
   console.log(b);
+  b = b + 1;
 }
 
 
@@ -51,8 +51,8 @@ for ( let i = 10; i >= 0; i = i - 1) {
 };
 
 console.log('WHILE CYKLUS');
-let c = 11;
-while( c >= 1) {
-  c = c - 1;
+let c = 10;
+while( c >= 0) {
   console.log(c);
+  c = c - 1;
 }
